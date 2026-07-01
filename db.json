@@ -1,0 +1,74 @@
+{
+  "Guild": [
+    {
+      "guildId": "1513201658069389372",
+      "logs": {
+        "enabled": false,
+        "channelId": null,
+        "events": []
+      },
+      "verification": {
+        "enabled": false,
+        "channelId": null,
+        "roleId": null,
+        "type": "button"
+      },
+      "welcome": {
+        "enabled": false,
+        "channelId": null,
+        "embedTitle": "Welcome {user}!",
+        "embedDesc": "Welcome to the server, {user}! You are member #{memberCount}.",
+        "embedColor": "#5865F2",
+        "thumbnail": true,
+        "autoRoleId": null
+      },
+      "goodbye": {
+        "enabled": false,
+        "channelId": null,
+        "message": "Goodbye {user}, we will miss you!"
+      },
+      "automod": {
+        "enabled": false,
+        "antispam": false,
+        "antiinvite": false,
+        "antilink": false,
+        "badwords": [],
+        "mentionLimit": 0,
+        "antiraid": false,
+        "punishment": "warn"
+      },
+      "tickets": {
+        "enabled": true,
+        "categoryChannelId": "1513201658719371424",
+        "supportRoleId": "1516478567930921078",
+        "logsChannelId": "1517188225657995356",
+        "counter": 1
+      },
+      "levels": {
+        "enabled": false
+      },
+      "isPremium": false,
+      "premiumExpiresAt": null,
+      "_id": "imne8457l1r"
+    }
+  ],
+  "User": [],
+  "Warning": [],
+  "Ticket": [
+    {
+      "guildId": "1513201658069389372",
+      "channelId": "1521853963438260284",
+      "userId": "1241678716245905460",
+      "claimedBy": "1241678716245905460",
+      "status": "claimed",
+      "closedBy": null,
+      "createdAt": 1782908634652,
+      "closedAt": null,
+      "_id": "hfepv2xxyz"
+    }
+  ],
+  "Giveaway": [],
+  "Backup": [],
+  "Premium": [],
+  "ReactionRole": []
+}

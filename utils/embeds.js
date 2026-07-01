@@ -43,7 +43,7 @@ function createEmbed({
       iconURL: footer.iconURL || footer.iconUrl || undefined
     });
   } else {
-    embed.setFooter({ text: 'Enterprise Services • Antigravity' });
+    embed.setFooter({ text: 'Enterprise Services • timoxiter' });
   }
 
   return embed;
