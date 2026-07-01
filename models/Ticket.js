@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require('../database');
 
 const ticketSchema = new mongoose.Schema({
   guildId: { type: String, required: true },

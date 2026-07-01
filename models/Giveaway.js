@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require('../database');
 
 const giveawaySchema = new mongoose.Schema({
   messageId: { type: String, required: true, unique: true },

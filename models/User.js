@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require('../database');
 
 const userSchema = new mongoose.Schema({
   guildId: { type: String, required: true },

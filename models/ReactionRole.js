@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require('../database');
 
 const reactionRoleSchema = new mongoose.Schema({
   guildId: { type: String, required: true },

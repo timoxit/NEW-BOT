@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require('../database');
 
 const backupSchema = new mongoose.Schema({
   backupId: { type: String, required: true, unique: true },

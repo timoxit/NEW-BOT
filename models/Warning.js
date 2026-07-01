@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require('../database');
 
 const warningSchema = new mongoose.Schema({
   guildId: { type: String, required: true },

@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require('../database');
 
 const premiumSchema = new mongoose.Schema({
   code: { type: String, required: true, unique: true },
